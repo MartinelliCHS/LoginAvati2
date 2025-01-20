@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="./output.css" rel="stylesheet">
+    <title>Login AVATI</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Sora:wght@100..800&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <div class="column-one">
+        <div class="logo flex justify-center align items-center mx-auto">
+            <img src="../public/logo.png" alt="Logo AVATI">
+        </div>
+    </div>
+
+    <div class="column-two grid-cols-1 font-sora">
+
+        <div class="box flex flex-col">
+
+            <div class="text flex justify-center font-bold">
+                <h1 class="text-3xl sm:text-6xl mt-10 mb-5 ">Log-in</h1>
+            </div>
+
+            <div class="flex flex-col justify-center items-center ">
+                <form action="" class="flex flex-col justify-center font-inter">
+                    <label for="Email" class="flex flex-col mb-4 sm:text-2xl">
+                        Email
+                        <input type="email" placeholder="Digite seu email"  id="emailInput" required class="bg-[#D3D3D3] sm:text-xl p-2 w-[18rem] sm:w-[30.5rem] rounded-xl">
+                    </label>
+
+                    <label for="Password" class="flex flex-col mb-4 sm:text-2xl">
+                        Senha
+                        <input type="password" placeholder="Senha" id="passwordInput" required class="bg-[#D3D3D3] sm:text-xl p-2 w-[18rem] sm:w-[30.5rem] rounded-xl">
+                    </label>
+
+                    <button type="submit" class="bg-[#e9f035] p-2 w-[18rem] sm:w-[30.5rem] rounded-xl font-semibold sm:text-2xl">Entrar</button>
+                </form>
+            </div>
+
+        </div>
+
+    </div>
+
+<script src="./script.js"></script>
+</body>
+</html>
