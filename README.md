@@ -43,7 +43,7 @@ O projeto consiste em uma página de login com validações básicas de formulá
 ### HTML
 
 O arquivo `index.html` contém a estrutura principal da página:
-- **Cabeçalho (`<head>`):** Define metadados e importa fontes e estilos.
+- **Cabeçalho (`<head>`):** Define dados de relevância e importa fontes e estilos.
 - **Corpo (`<body>`):**
   - **Coluna 1:** Exibe o logotipo centralizado.
   - **Coluna 2:** Contém o formulário de login.
@@ -73,12 +73,3 @@ O arquivo `script.js` gerencia a validação e funcionalidade do formulário:
 3. Mensagens de feedback:
    - Alerta para entradas inválidas.
    - Alerta de sucesso caso as validações sejam aprovadas.
-
----
-
-## Instruções de Uso
-
-1. Faça o download ou clone este repositório.  
-2. Certifique-se de ter um navegador moderno instalado.  
-3. Abra o arquivo `index.html` em seu navegador ou configure em um servidor local.  
-4. Insira os dados nos campos de login e veja as mensagens de validação.  
